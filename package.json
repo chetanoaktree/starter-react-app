@@ -2,7 +2,7 @@
   "name": "starter-react-app",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://sore-rose-bison-tux.cyclic.app",
+  "proxy": "https://api.unicheck.com",
   "scripts": {
     "start": "node server.js",
     "dev": "react-scripts start",
