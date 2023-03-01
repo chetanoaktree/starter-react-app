@@ -42,8 +42,9 @@ function App() {
     // })
     //   .then(data => console.log("-----------",data))
     //   .catch(error => console.error(error));
+    const serv = 'https://api.unicheck.com'
 
-    axios.get('/api/similarity/checks/076d1e299b3c45bab8f2ef3879ae996f/report/export/6298048', {
+    axios.get(`/api/similarity/checks/076d1e299b3c45bab8f2ef3879ae996f/report/export/6298048`, {
       headers: {
         'Authorization': `Bearer ${ACCESS_TOKEN}`,
         'Content-Type': 'application/json'
